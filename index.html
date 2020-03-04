@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <link rel="stylesheet" type="text/css" href="../poc/content/css/poc.css">
+</head>
+<body>
+                <div id="form">
+                                <h2 id="heading">PARTICIPANTS FEEDBACK</h2><br>
+                                <div class="participant_info">
+                                NAME:       <input type="text" class="txtbox" id="name"> <br><br>
+                                EMPLOYEE ID:<input type="text" class="txtbox" id="ids"> <br><br>
+                            </div>
+                            <div class="trainer_info">
+                                TRAINER NAME:       <input type="text" class="txtbox"> <br><br>
+                                PHONE NUMBER:           <input type="text" class="txtbox" id="phn"> <br><br>
+                            </div>
+                        
+<table>
+                <tr>
+                    <th></th>
+                    <th>SCORE</th>
+                    <th>COMMENTS</th>
+                </tr>
+                <tr>
+                    <th>ABOUT TRAINING PROGRAM</th>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                        <td>The major intended purpose of the workshop was met</td>
+                        <td>
+                                <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                        </td>
+                        <td>
+                                <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>My understanding was of the concepts were clear</td>
+                        <td>
+                                <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                        </td>
+                        <td>
+                                <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>Adequate time and structure were provided to question and answer</td>
+                            <td>
+                                    <select>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                            </td>
+                            <td>
+                                    <input type="text">
+                            </td>
+                    </tr>
+                    <tr>
+                            <td>The workshop has given me insight about my current skills levels on team building</td>
+                            <td>
+                                    <select>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                            </td>
+                            <td>
+                                    <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                                <td>Appication of the learning from the workshop to the work setting would be easy for me</td>
+                                <td>
+                                        <select>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                </td>
+                                <td>
+                                        <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                    <td>The workshop will help me work better with my team</td>
+                                    <td>
+                                            <select>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                    </td>
+                                    <td>
+                                            <input type="text">
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td> The workshop will enhance my effectiveness in the workplace</td>
+                                    <td>
+                                            <select>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                    </td>
+                                    <td>
+                                            <input type="text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                        <th>ABOUT TRAINER</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                            <td>There was clarity in content</td>
+                                            <td>
+                                                    <select>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                        </select>
+                                            </td>
+                                            <td>
+                                                    <input type="text">
+                                            </td>
+                                        </tr>
+            </table>
+            <div id="foot">
+                        
+                        <div id="align2">
+                            Participant Rating:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+                            <input type="radio" value="1" name="review">poor
+                            <input type="radio" value="2" name="review">Average
+                            <input type="radio" value="3" name="review">Good
+                            <input type="radio" value="4" name="review">Very good
+                            <input type="radio" value="5" name="review">Excellent
+                        </div> <br>
+                        <div id="align1">
+                        <div>
+                        <span>Topics you liked</span>
+                        <input type="text" id="topic_liked">
+                        </div> <br>
+                        <div>
+                            <span>Comments</span>
+                            <textarea id="txtarea"></textarea>
+                        </div>
+                </div>
+                    </div>
+                    <button id="show_table">SUBMIT</button>
+            <table style="visibility: hidden" id="mytable">
+                <thead>
+                    <th>NAME</th>
+                    <th>EMPID</th>
+                    <TH>PHONENUMBER</TH>
+                </thead>
+                <TBODY id="hai">
+                </TBODY>
+            </table>
+            <script src="../poc/content/js/poc.js"></script>
+            </div>
+            </body>
+            </html>
+
+
+
+
+
+
+
+
+

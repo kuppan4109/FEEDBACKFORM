@@ -1,0 +1,73 @@
+body{
+    background-color:lightgoldenrodyellow;
+    background-size: cover;
+}
+table,th,td{
+    border: 3px solid black;
+   border-collapse: collapse;
+   width:80%;
+   text-align:left;
+  
+  }
+  table{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 70px;
+      margin-bottom:70px;
+  }
+  select{
+      width: 100%;
+      text-align: center;
+  }
+   h1{
+       text-align: center;
+   }
+ #form{
+    border:1px solid;
+    width:80%;
+    padding:5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+}
+.heading{
+    align-items: center;
+}
+.participant_info{
+    display:inline-block;
+    width:fit-content;
+    text-align: left;
+    padding-right:200px;
+}
+.trainer_info{
+    display: inline-block;
+    text-align: left;
+}
+.txtbox{
+    float:right;
+}
+
+#topic_liked{
+    width:200px;
+    float: right;
+}
+#txtarea{
+    resize: none;
+    width:200px;
+    height:30px;
+    float:right;
+}
+#foot{
+    text-align: left;
+    width:60%;
+    margin-left:10%;
+}
+#show_table{
+    margin-top: 10%;
+}
+#align1
+{
+    width: 59%;
+}
+
